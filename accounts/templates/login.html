@@ -22,5 +22,9 @@
         {% for message in messages %} {{ message }} {% endfor %}
     </div>
     {% endif %}
+    
+    <form method="POST">
+        {{ login_form }}
+    </form>
 </body>
 </html>
